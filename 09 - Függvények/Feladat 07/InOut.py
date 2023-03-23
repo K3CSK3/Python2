@@ -1,16 +1,5 @@
-def InOut() -> float:
-    num :float = None
-    while (num == None):
-        bevitel: str = None
-        isNumber :bool = False
-        bevitelCopy :str = None
-
-        print("Adjon meg egy számot: ",end="")
-        bevitel = input()
-        bevitelCopy = bevitel.replace(".", "").replace("-", "")
-        isNumber = bevitelCopy.isnumeric()
-        if (isNumber):
-            num = float(bevitel)
-        else:
-            print("Nem számot adott meg!\n\n")
-    return num
+def kiiras(nagyobb:int, szam1:int, szam2:int) -> None:
+    if (nagyobb == szam1):
+        print(f"Az {szam1} szám nagyobb mint {szam2}")
+    elif (nagyobb == szam2):
+        print(f"Az {szam2} szám nagyobb mint {szam1}")

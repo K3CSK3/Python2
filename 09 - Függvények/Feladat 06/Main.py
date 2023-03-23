@@ -1,2 +1,9 @@
 from functions import *
-from InOut import InOut as consoleInput
+from InOut import *
+
+tipusra = textInOut()
+ertek = numInOut()
+
+mennyiseg = konverter(tipusra, ertek)
+
+kiiras(tipusra, ertek, mennyiseg)

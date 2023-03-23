@@ -1,4 +1,4 @@
-def InOut() -> int:
+def yearInOut() -> int:
     num :int = None
     while (num == None):
         bevitel: str = None
@@ -13,8 +13,8 @@ def InOut() -> int:
             num = int(bevitel)
         else:
             print("Nem egy évet adott meg!\n\n")
-
-            
+    return num
+def nameInOut() ->str:
     text :str = None
     while (text == None):
         bevitel: str = None
@@ -25,4 +25,4 @@ def InOut() -> int:
             text = str(bevitel)
         else:
             print("Nem nevet adott meg!\n\n")
-    return [text,num]
+    return text

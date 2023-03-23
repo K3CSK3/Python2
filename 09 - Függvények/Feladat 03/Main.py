@@ -1,9 +1,7 @@
 from functions import *
-from InOut import InOut as consoleInput
+from InOut import *
 
-lista :list = consoleInput()
-
-neve = lista[0]
-year = lista[1]
+neve = nameInOut()
+year = yearInOut()
 
 kiiras(neve, year)

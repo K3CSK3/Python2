@@ -1,9 +1,9 @@
 from functions import *
-from InOut import InOut as consoleInput
+from InOut import *
 
-lista = consoleInput()
+word01 = elsoInOut().lower()
+word02 = masodikInOut().lower()
 
-word01 = lista[0]
-word02 = lista[0]
+egyezik = osszehasonlito(word01, word02)
 
-osszehasonlito(word01, word02)
+kiiras(word01, word02, egyezik)
