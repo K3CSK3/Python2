@@ -1,2 +1,9 @@
 from functions import *
-from InOut import InOut as consoleInput
+
+db = 2
+
+adatok = bekeres(db)
+
+penzek = oraberSzamlalasKomplex(adatok, db)
+
+kiiras(penzek)

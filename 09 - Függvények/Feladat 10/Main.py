@@ -1,2 +1,5 @@
 from functions import *
-from InOut import InOut as consoleInput
+
+kitalalando = randomSzam()
+
+tipp(kitalalando)
