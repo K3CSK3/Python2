@@ -27,7 +27,7 @@ def textInOut() -> str:
             text = "F"
         else:
             print("Nem jót adott meg!\n\n")
-    return text
+    return text.upper()
 
 def kiiras(tipus:str, ertek:float, mennyiseg:float) -> None:
     if tipus == "K":

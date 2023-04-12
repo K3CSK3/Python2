@@ -5,7 +5,7 @@ def bekeres(db:int) -> str:
     for i in range(1, db+1, 1):
         name = inOutName()
         hour = inOutHour()
-        teljes += str(name) + ";" + str(hour) + "|"
+        teljes += name + ";" + str(hour) + "|"
     return(teljes)
 
 def oraberSzamlalasKomplex(adat:str,db:int) -> str:

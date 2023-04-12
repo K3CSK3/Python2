@@ -24,7 +24,7 @@ def inOutName() -> str:
         bevitelCopy = bevitel.replace(" ", "")
 
         if (bevitelCopy.isalpha()):
-            text = str(bevitel)
+            text = bevitel
         else:
             print("Nem nevet adott meg!\n\n")
     return text
