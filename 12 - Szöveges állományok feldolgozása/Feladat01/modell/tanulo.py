@@ -3,5 +3,6 @@ class Tanulo():
         super().__init__()
         self.nev: str = nev
         self.atlag: float = atlag
+
     def __str__(self) -> str:
-        return (f"Név: {self.nev} Átlag: {self.atlag}")
+        return f"Név: {self.nev} \t Átlag: {self.atlag}"
