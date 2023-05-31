@@ -1,0 +1,8 @@
+Refactoring - Kódjavítás újratervezéssel(9639637130) írta Fowler Martin (született: 1963-09-21 00:00:00) kiadva 2006 Kiskapu Kiadó által. Ára: 5525.0 Ft, témája: informatika, oldalainak száma: 372
+
+Domain-Specific Languages(9780321712943) írta Fowler Martin (született: 1963-09-21 00:00:00) kiadva 2010 Addison-Wesley Professional által. Ára: 8735.0 Ft, témája: informatika, oldalainak száma: 640
+
+Design Patterns: Elements of Reusable Object-Oriented Software(9780201633610) írta Gamma Erich (született: 1961-12-31 00:00:00) kiadva 1994 Addison-Wesley Professional által. Ára: 5980.0 Ft, témája: informatika, oldalainak száma: 416
+
+Programtervezési minták - Újrahasznosítható elemek objektumközpontú programokhoz(9639301779) írta Gamma Erich (született: 1961-12-31 00:00:00) kiadva 2004 Kiskapu - Addison-Wesley által. Ára: 5980.0 Ft, témája: informatika, oldalainak száma: 421
+
