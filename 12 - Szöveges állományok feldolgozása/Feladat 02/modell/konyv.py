@@ -4,7 +4,7 @@ class Konyvek():
         super().__init__()
         self.vezeteknev: str = None
         self.keresztnev: str = None
-        self.születesidatum: datetime = None
+        self.születesidatum: datetime.date = None
         self.cim: str = None
         self.isbn: int = None
         self.kiado: str = None

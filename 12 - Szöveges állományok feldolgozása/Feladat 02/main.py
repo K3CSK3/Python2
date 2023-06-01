@@ -17,12 +17,6 @@ megfeleloSzazadbanMegjelentKonyvek: list[Konyvek] = evjaratSzamitas(konyvek, 190
 fajlbaIras(megfeleloSzazadbanMegjelentKonyvek, "1900.txt")
 
 #Rendezzük az adatokat a könyvek oldalainak száma szerint csökkenő sorrendbe és a sorbarakott.txt állományba mentsük el.
-fajlbaIras(sorted(konyvek, key=lambda konyv: konyv.oldalszam, reverse=True),"sorbarakott.txt")
-
-# „kategoriak.txt” állományba mentse el a könyveket téma szerint. Például:
-# Thriller:
-# 	- könnyv1
-# 	- könnyv2
-# Krimi:
-# 	- könnyv1
-# 	- könnyv2
+szortirozni = konyvek
+sorbaRendez(szortirozni,"csökkenő")
+fajlbaIras(szortirozni,"sorbarakott.txt")

@@ -27,3 +27,28 @@ def fajlbaIras(konyvek:list[Konyvek], fajlNev:str) -> None:
         
     except FileNotFoundError as ex:
         print(f"{ex.filename} fájl nem található")
+
+def sorbaRendez(konyvek: list[Konyvek], sorrend: str) -> list[Konyvek]:
+    darabszam = len(konyvek)
+    ideiglenes :Konyvek = None
+
+    for i in range(0, darabszam, 1):
+        for j in range(i+1, darabszam,  1):
+            if ((konyvek[j].oldalszam > konyvek[i].oldalszam) and sorrend=="csökkenő"):
+                ideiglenes = konyvek[i].oldalszam
+                konyvek[i].oldalszam = konyvek[j].oldalszam
+                konyvek[j].oldalszam = ideiglenes
+
+            if ((konyvek[j].oldalszam < konyvek[i].oldalszam) and sorrend=="növekvő"):
+                ideiglenes = konyvek[i].oldalszam
+                konyvek[i].oldalszam = konyvek[j].oldalszam
+                konyvek[j].oldalszam = ideiglenes
+
+def temaKereses(konyvek: list[Konyvek], tema):
+    visszateres = []
+    
+    for konyv in konyvek:
+        if konyv.tema == tema:
+            visszateres.append(konyv)
+
+    return visszateres
