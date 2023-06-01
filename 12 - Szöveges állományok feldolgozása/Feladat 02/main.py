@@ -20,3 +20,17 @@ fajlbaIras(megfeleloSzazadbanMegjelentKonyvek, "1900.txt")
 szortirozni = konyvek
 sorbaRendez(szortirozni,"csökkenő")
 fajlbaIras(szortirozni,"sorbarakott.txt")
+
+konyvTemak = {
+    "Krimi":temaKereses(konyvek,"krimi"),
+    "Sci-fi":temaKereses(konyvek,"sci-fi"),
+    "Horror":temaKereses(konyvek,"horror"),
+    "Thriller":temaKereses(konyvek,"thriller"),
+    "Történelem":temaKereses(konyvek,"történelem"),
+    "Természettudomány":temaKereses(konyvek,"természettudomány"),
+    "Szépirodalom":temaKereses(konyvek,"szépirodalom"),
+    "Mesekönv":temaKereses(konyvek,"mesekönyv"),
+    "Informatika":temaKereses(konyvek,"informatika"),
+}
+
+fajlbaIras(konyvTemak,"kategoria.txt")
