@@ -34,7 +34,7 @@ def fajlbaIras(jatekosok:list[Jatekos], filenev) -> None:
     try:
         with open(file=teljesUt,encoding="utf8",mode="w") as file:
             for jatekos in jatekosok:
-                file.write(jatekos)
+                file.write(f"{jatekos}\n")
     except FileNotFoundError as ex:
         print(f"A fájl nem létezik vagy nem található {ex.filename}")
 

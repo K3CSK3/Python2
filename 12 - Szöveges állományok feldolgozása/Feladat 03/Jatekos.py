@@ -9,4 +9,4 @@ class Jatekos():
         self.orszag: str = None
 
     def __str__(self) -> str:
-        return f"{self.nev} magassága: {self.magassag}, {self.poszt}-ba játszik, {self.orszag} {self.nemzetiseg} nemzetiségű {self.csapat} csapatban"
+        return f"{self.nev} magassága: {self.magassag}, {self.poszt} posztban játszik, {self.orszag} {self.nemzetiseg} nemzetiségű {self.csapat} csapatban"
